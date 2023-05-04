@@ -9,16 +9,26 @@
     <title>Facebook – log in or sign up</title>
 </head>
 
-<body>
-    <div class="container">
-        <div class="left">
-            <img src="fb.svg" alt="facebook">
-            <p>Facebook helps you connect and share with the people in your life.</p>
+<body class="bg-gray-100">
+    <div class="container flex mt-48 mx-auto items-center justify-center">
+        <div class="left w-1/3 mx-14">
+            <img src="fb.svg" class="w-80" alt="facebook">
+            <p class="text-3xl mx-8">Facebook helps you connect and share with the people in your life.</p>
         </div>
-        <div class="right">
-            <input type="text" placeholder="Email address or phone number">
-            <input type="password" placeholder="password">
-            <button class="btn">Log In</button>
+        <div class="right flex flex-col bg-white p-8 rounded-xl w-1/4 text-lg">
+            <input type="text" class="px-4 my-2 h-12 border border-1 border-gray-200 rounded-lg"
+                placeholder="Email address or phone number">
+            <input type="password" class="px-4 my-2 h-12 border border-1 border-gray-200 rounded-lg"
+                placeholder="password">
+            <button
+                class="btn bg-blue-600 text-white font-bold text-xl my-3 py-3 rounded-md cursor-pointer hover:bg-blue-700">Log
+                In</button>
+            <span class="text-blue-600 text-center text-sm my-2 cursor-pointer hover:underline">Forgotten
+                password?</span>
+            <hr class="my-2">
+            <button
+                class="btn bg-green-600 text-white font-bold text-xl my-3 py-3 px-4 mx-auto rounded-md cursor-pointer w-fit hover:bg-green-700">Create
+                New Account</button>
         </div>
     </div>
 
